@@ -1,0 +1,3 @@
+knife bootstrap 54.169.69.60 --ssh-user ec2-user --sudo --identity-file chef_key.pem --node-name node2-ec2
+
+http://ec2-54-169-69-60.ap-southeast-1.compute.amazonaws.com/

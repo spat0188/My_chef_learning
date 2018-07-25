@@ -1,0 +1,9 @@
+in_file = open(from_file)
+indata = in_file.read
+puts "the input file is #{indata.lenth} bytes long
+puts "Does the input file exists ?#{File.exist?(to_file)}"
+puts "ready,hit return to continue,ctrl -c to abort."
+$stdin.gets
+out_file = open(to_file, 'w')
+out_file.write(indata)
+puts "Alright, all done."
